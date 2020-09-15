@@ -20,9 +20,9 @@ def guess():
 
 guess()
 
-again = input("Please enter 'y' if you want to play again\n")
+again = input("Please enter 'y' if you want to play again or Enter any letter to Quit\n")
 while again=='y' or again =='Y':
     guess()
-    again = input("Please enter 'y' if you want to play again\n")
+    again = input("Please enter 'y' if you want to play again or Enter any letter to Quit\n")
 else:
     print("Bye! Please come again.")
